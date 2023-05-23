@@ -5,7 +5,8 @@
  *@s: the pointer to the memory area
  *@b: the byte to fill *s with
  *@n: the amount of bytes to be filled
- *Return: (s) a pointer to the memory area s
+ *Return: (s) a pointer to the memory area
+ * made by achebe emmanuel
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -19,6 +20,7 @@ char *_memset(char *s, char b, unsigned int n)
 /**
  * ffree - frees a string of strings
  * @pp: string of strings
+ * made by achebe emmanuel
  */
 void ffree(char **pp)
 {
@@ -36,7 +38,7 @@ void ffree(char **pp)
  * @ptr: pointer to previous malloc'ated block
  * @old_size: byte size of previous block
  * @new_size: byte size of new block
- *
+ * made by achebe emmanuel
  * Return: pointer to da ol'block nameen.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
