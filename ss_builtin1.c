@@ -3,6 +3,7 @@
 /**
  * _myhistory - displays the history list, one command by line, preceded
  *              with line numbers, starting at 0.
+ * made by achebe emmanuel
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
@@ -19,6 +20,7 @@ int _myhistory(info_t *info)
  * @str: the string alias
  *
  * Return: Always 0 on success, 1 on error
+ * made by achebe emmanuel
  */
 int unset_alias(info_t *info, char *str)
 {
@@ -37,11 +39,12 @@ int unset_alias(info_t *info, char *str)
 }
 
 /**
- * set_alias - sets alias to string
+ * set_alias - A function that sets alias to string
  * @info: parameter struct
  * @str: the string alias
  *
  * Return: Always 0 on success, 1 on error
+ * made by achebe emmanuel
  */
 int set_alias(info_t *info, char *str)
 {
@@ -58,10 +61,11 @@ int set_alias(info_t *info, char *str)
 }
 
 /**
- * print_alias - prints an alias string
+ * print_alias - a funtion that prints an alias string
  * @node: the alias node
  *
  * Return: Always 0 on success, 1 on error
+ * made by achebe emmanuel
  */
 int print_alias(list_t *node)
 {
@@ -85,6 +89,7 @@ int print_alias(list_t *node)
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  *  Return: Always 0
+ * made by achebe emmanuel
  */
 int _myalias(info_t *info)
 {
