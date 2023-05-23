@@ -4,7 +4,7 @@
  * hsh - main shell loop
  * @info: the parameter & return info struct
  * @av: the argument vector from main()
- *
+ * made by achebe emmanuel
  * Return: 0 on success, 1 on error, or error code
  */
 int hsh(info_t *info, char **av)
@@ -51,6 +51,7 @@ int hsh(info_t *info, char **av)
  *			0 if builtin executed successfully,
  *			1 if builtin found but not successful,
  *			-2 if builtin signals exit()
+ * made by achebe emmanuel
  */
 int find_builtin(info_t *info)
 {
@@ -82,6 +83,7 @@ int find_builtin(info_t *info)
  * @info: the parameter & return info struct
  *
  * Return: void
+ * made by achebe emmanuel
  */
 void find_cmd(info_t *info)
 {
@@ -124,6 +126,7 @@ void find_cmd(info_t *info)
  * @info: the parameter & return info struct
  *
  * Return: void
+ * made by achebe emmanuel
  */
 void fork_cmd(info_t *info)
 {
