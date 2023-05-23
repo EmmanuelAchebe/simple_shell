@@ -3,6 +3,7 @@
 /**
  * _erratoi - converts a string to an integer
  * @s: the string to be converted
+ * made by achebe emmanuel
  * Return: 0 if no numbers in string, converted number otherwise
  *       -1 on error
  */
@@ -34,6 +35,7 @@ int _erratoi(char *s)
  * @estr: string containing specified error type
  * Return: 0 if no numbers in string, converted number otherwise
  *        -1 on error
+ * made by achebe emmanuel
  */
 void print_error(info_t *info, char *estr)
 {
@@ -50,7 +52,7 @@ void print_error(info_t *info, char *estr)
  * print_d - function prints a decimal (integer) number (base 10)
  * @input: the input
  * @fd: the filedescriptor to write to
- *
+ * made by achebe emmanuel
  * Return: number of characters printed
  */
 int print_d(int input, int fd)
@@ -90,7 +92,7 @@ int print_d(int input, int fd)
  * @num: number
  * @base: base
  * @flags: argument flags
- *
+ * made by achebe emmanuel
  * Return: string
  */
 char *convert_number(long int num, int base, int flags)
@@ -124,7 +126,7 @@ char *convert_number(long int num, int base, int flags)
 /**
  * remove_comments - function replaces first instance of '#' with '\0'
  * @buf: address of the string to modify
- *
+ * made by achebe emmanuel
  * Return: Always 0;
  */
 void remove_comments(char *buf)
