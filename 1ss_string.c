@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strcpy - copies a string
+ * _strcpy - a funtion that copies a string
  * @dest: the destination
  * @src: the source
  * made by achebe emmanuel
