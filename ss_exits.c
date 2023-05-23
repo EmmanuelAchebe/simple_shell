@@ -6,6 +6,7 @@
  *@src: the source string
  *@n: the amount of characters to be copied
  *Return: the concatenated string
+ * made by achebe emmanuel
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -36,6 +37,7 @@ char *_strncpy(char *dest, char *src, int n)
  *@src: the second string
  *@n: the amount of bytes to be maximally used
  *Return: the concatenated string
+ * made by achebe emmanuel
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -62,6 +64,7 @@ char *_strncat(char *dest, char *src, int n)
  *@s: the string to be parsed
  *@c: the character to look for
  *Return: (s) a pointer to the memory area s
+ * made by achebe emmanuel
  */
 char *_strchr(char *s, char c)
 {
