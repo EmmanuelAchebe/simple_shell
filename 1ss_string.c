@@ -4,7 +4,7 @@
  * _strcpy - copies a string
  * @dest: the destination
  * @src: the source
- *
+ * made by achebe emmanuel
  * Return: pointer to destination
  */
 char *_strcpy(char *dest, char *src)
@@ -25,7 +25,7 @@ char *_strcpy(char *dest, char *src)
 /**
  * _strdup - duplicates a string
  * @str: the string to duplicate
- *
+ * made by achebe emmanuel
  * Return: pointer to the duplicated string
  */
 char *_strdup(const char *str)
@@ -48,7 +48,7 @@ char *_strdup(const char *str)
 /**
  *_puts - prints an input string
  *@str: the string to be printed
- *
+ * made by achebe emmanuel
  * Return: Nothing
  */
 void _puts(char *str)
@@ -67,7 +67,7 @@ void _puts(char *str)
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
- *
+ * made by achebe emmanuel
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
