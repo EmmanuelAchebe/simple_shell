@@ -5,6 +5,7 @@
  * @str: the input string
  * @d: the delimeter string
  * Return: a pointer to an array of strings, or NULL on failure
+ * made by achebe emmanuel
  */
 
 char **strtow(char *str, char *d)
@@ -53,6 +54,7 @@ char **strtow(char *str, char *d)
  * @str: the input string
  * @d: the delimeter
  * Return: a pointer to an array of strings, or NULL on failure
+ * made by achebe emmanuel
  */
 char **strtow2(char *str, char d)
 {
