@@ -5,6 +5,7 @@
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0
+ * made by achebe emmanuel
  */
 int _myenv(info_t *info)
 {
@@ -18,6 +19,7 @@ int _myenv(info_t *info)
  * @name: env var name
  *
  * Return: the value
+ * made by achebe emmanuel
  */
 char *_getenv(info_t *info, const char *name)
 {
@@ -40,6 +42,7 @@ char *_getenv(info_t *info, const char *name)
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
+ * made by achebe emmanuel
  */
 int _mysetenv(info_t *info)
 {
@@ -58,6 +61,7 @@ int _mysetenv(info_t *info)
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
+ * made by achebe emmanuel
  */
 int _myunsetenv(info_t *info)
 {
@@ -79,6 +83,7 @@ int _myunsetenv(info_t *info)
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0
+ * made by achebe emmanuel
  */
 int populate_env_list(info_t *info)
 {
