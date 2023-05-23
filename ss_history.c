@@ -3,7 +3,7 @@
 /**
  * get_history_file - gets the history file
  * @info: parameter struct
- *
+ * made by achebe emmanuel
  * Return: allocated string containg history file
  */
 
@@ -27,7 +27,7 @@ char *get_history_file(info_t *info)
 /**
  * write_history - creates a file, or appends to an existing file
  * @info: the parameter struct
- *
+ * made by achebe emmanuel
  * Return: 1 on success, else -1
  */
 int write_history(info_t *info)
@@ -56,7 +56,7 @@ int write_history(info_t *info)
 /**
  * read_history - reads history from file
  * @info: the parameter struct
- *
+ * made by achebe emmanuel
  * Return: histcount on success, 0 otherwise
  */
 int read_history(info_t *info)
@@ -107,7 +107,7 @@ int read_history(info_t *info)
  * @info: Structure containing potential arguments. Used to maintain
  * @buf: buffer
  * @linecount: the history linecount, histcount
- *
+ * made by achebe emmanuel
  * Return: Always 0
  */
 int build_history_list(info_t *info, char *buf, int linecount)
